@@ -7,14 +7,16 @@ Shopware 6 demo shop playground installation using the new official [nix](https:
 
 This setup obsoletes earlier approaches based on [shopware/development](https://github.com/shopware/development). Some content might still need an update to match the new requirements!
 
-This main directory will ignore the shopware repositories
+## Shopware 6.x Changes not covered in the Academy Tutorials
+
+- since 6.5 there is no psh.phar anymore. You can find the replacements in the bin folder just ./bin/watch-administration.sh and so on (source: shyim in Shopware Slack)
+- see my subjective selective changelog post [Shopware changes since the 6.0 dev training videos](https://dev.to/ingosteinke/shopware-changes-since-the-60-dev-training-videos-481o) for more changes since 6.0/6.1
+
+This main directory will ignore the old Shopware repositories
 - development
 - shopware
 
-Generated files from production server are checked in to
-- generated
-
-but new themes and plugins below `development`
+New themes and plugins below `development`
 should have their own repositories below `custom`,
 e.g. /development/custom/plugins/IngoSFraktalistheme
 
