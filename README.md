@@ -19,13 +19,14 @@ This main directory will ignore the old Shopware repositories
 New themes and plugins below `development`
 should have their own repositories below `custom`,
 e.g. /development/custom/plugins/IngoSFraktalistheme
+but as these are now typically mapped to the project `src` folder, we don't need a special parent repository project anymore.
 
 ## Changelog
 
 ### 2023
 
 - remove deprectated instances
-- renamed and updated existing projects to use the new flex template
+- rename and update existing projects
 - check Shopware/Symfony documentation for changes and upcoming SW 6.6 features
 
 ### prod(uction) installation online
